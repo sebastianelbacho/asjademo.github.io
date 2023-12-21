@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html  {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    background-color: black;
+    box-shadow: inset 0 0 70px hsla(0, 97%, 53%, 1);
+    
+    
+}
+
+.hero-shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: -1;
+}
+
+.orange-color {
+    color: rgb(255, 102, 0);
+}
+
+/* Nawigacja */
+
+.navbar-brand {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    
+
+}
+
+.bi-facebook {
+    font-size: 2rem;
+    color: rgb(7,102,255);
+    margin-left: 5px;
+}
+
+i {
+    margin-right: 5px;
+}
+
+.nav-link, .navbar-toggler-icon {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    margin: 0 5px;
+}
+
+.navbar-toggler {
+    padding: 1rem;
+}
+
+/* sekcja powoitalna  */
+
+.home {
+    position: relative;
+    height: 60rem;
+    background-image: url('./img/asjaJeden.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: 0;
+}
+
+.home .btn {
+    padding: 1em 1em;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+
+.home .welcome-text {
+    font-size: 2.2rem;
+}
+
+
